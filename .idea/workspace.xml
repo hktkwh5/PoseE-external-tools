@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1b9c956-b568-4039-9001-8a949332a288" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/VIBE_master$demo.coverage" NAME="demo Coverage Results" MODIFIED="1624778043413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master$img_utils.coverage" NAME="img_utils Coverage Results" MODIFIED="1627489983431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/data_utils" />
+    <SUITE FILE_PATH="coverage/VIBE_master$test_3d_datasets.coverage" NAME="test_3d_datasets Coverage Results" MODIFIED="1624266964323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/VIBE_master$BPNN_classification.coverage" NAME="BPNN_classification Coverage Results" MODIFIED="1637225327711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/BPNN_classification" />
+    <SUITE FILE_PATH="coverage/VIBE_master$mpii3d_utils.coverage" NAME="mpii3d_utils Coverage Results" MODIFIED="1653732727435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/data_utils" />
+    <SUITE FILE_PATH="coverage/VIBE_master$train.coverage" NAME="train Coverage Results" MODIFIED="1653225227699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master$eval.coverage" NAME="eval Coverage Results" MODIFIED="1653720436403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master$trainer.coverage" NAME="trainer Coverage Results" MODIFIED="1622342303267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/core" />
+    <SUITE FILE_PATH="coverage/VIBE_master$test_ooo.coverage" NAME="test_ooo Coverage Results" MODIFIED="1626693342566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1631366065546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/core" />
+    <SUITE FILE_PATH="coverage/VIBE_master$spin.coverage" NAME="spin Coverage Results" MODIFIED="1628477524112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/models" />
+    <SUITE FILE_PATH="coverage/VIBE_master$MPI_S12345_and_678_correct_level1_2.coverage" NAME="MPI_S12345_and_678_correct_level1_2 Coverage Results" MODIFIED="1633787275425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/utils" />
+    <SUITE FILE_PATH="coverage/VIBE_master$dataset_3d.coverage" NAME="dataset_3d Coverage Results" MODIFIED="1653292325100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/dataset" />
+    <SUITE FILE_PATH="coverage/VIBE_master$experience_plotresult.coverage" NAME="experience_plotresult补充 Coverage Results" MODIFIED="1634650999827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/VIBE_master$h36m_utils.coverage" NAME="h36m_utils Coverage Results" MODIFIED="1640921621349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/data_utils" />
+    <SUITE FILE_PATH="coverage/VIBE_master$config.coverage" NAME="config Coverage Results" MODIFIED="1625738513371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/core" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pred_betas</find>
+      <find>evaluation_accumulators</find>
+      <find>BATCH_SIZE</find>
+      <find>recursive_infer</find>
+      <find>compute_unary_term</find>
+      <find>vid_indices2</find>
+      <find>First_priority_single_view</find>
+      <find>vid_indices1</find>
+      <find>vid_indices</find>
+      <find>poses_group2[0]</find>
+      <find>transform_pt</find>
+      <find>double_view_sample_statistical_analysis</find>
+      <find>split_into_chunks</find>
+      <find>double_view_sample_complex_statistical_analysis</find>
+      <find>smpl_losses</find>
+      <find>gen_loss</find>
+      <find>motion_discriminator</find>
+      <find>hmr</find>
+      <find>MotionDiscriminator</find>
+      <find>real_body_samples</find>
+      <find>lr_scheduler</find>
+      <find>loss_dict</find>
+      <find>output</find>
+      <find>x</find>
+      <find>h5py</find>
+      <find>double_view_sample_plot_inner_distance</find>
+      <find>double_view_joint_h36m_Rotate_unify_coordinates</find>
+      <find>level1_target_confidence_domain</find>
+      <find>double_view_sample_plot_inner</find>
+      <find>verbose</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.mul</replace>
+      <replace>.mm</replace>
+      <replace>poses_group2</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/lib/utils/renderer.py" />
+        <option value="$PROJECT_DIR$/lib/utils/demo_utils.py" />
+        <option value="H:/Anaconda3/Lib/site-packages/tqdm/_monitor.py" />
+        <option value="$PROJECT_DIR$/test_ooo.py" />
+        <option value="$PROJECT_DIR$/lib/core/generate_mode3_csv.py" />
+        <option value="$PROJECT_DIR$/lib/models/vibe.py" />
+        <option value="$PROJECT_DIR$/lib/models/spin.py" />
+        <option value="$PROJECT_DIR$/lib/utils/eval_utils.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/kp_utils.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/con_file.py" />
+        <option value="$PROJECT_DIR$/lib/utils/MPI_S12345_and_678_correct_level1_2.py" />
+        <option value="$PROJECT_DIR$/lib/experience_plotresult补充.py" />
+        <option value="$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py" />
+        <option value="$PROJECT_DIR$/lib/core/config_cvf3d.py" />
+        <option value="$PROJECT_DIR$/lib/dataset/body.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/h36m_utils.py" />
+        <option value="$PROJECT_DIR$/lib/core/loss.py" />
+        <option value="$PROJECT_DIR$/lib/utils/utils.py" />
+        <option value="$PROJECT_DIR$/configs/config.yaml" />
+        <option value="$PROJECT_DIR$/lib/core/trainer.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/RPSM_utils.py" />
+        <option value="$APPLICATION_HOME_DIR$/helpers/pycharm_matplotlib_backend/backend_interagg.py" />
+        <option value="$PROJECT_DIR$/lib/dataset/loaders.py" />
+        <option value="$PROJECT_DIR$/lib/dataset/mpii3d.py" />
+        <option value="$PROJECT_DIR$/lib/core/evaluate.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/img_utils.py" />
+        <option value="$PROJECT_DIR$/lib/core/config.py" />
+        <option value="$PROJECT_DIR$/eval.py" />
+        <option value="$PROJECT_DIR$/lib/dataset/dataset_3d.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py" />
+        <option value="$PROJECT_DIR$/lib/data_utils/feature_extractor.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="width" value="1364" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectId" id="29nUUbaEm9QTppzTQp1xXNl5V30" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="data_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="smplify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIBE-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIBE-master" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Problems">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Administrator" type="cbb8eebc:String" user="Administrator" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Administrator" type="cbb8eebc:String" user="Administrator" />
+              <item name=".PyCharm2017.3" type="cbb8eebc:String" user=".PyCharm2017.3" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Administrator" type="cbb8eebc:String" user="Administrator" />
+              <item name=".PyCharm2017.3" type="cbb8eebc:String" user=".PyCharm2017.3" />
+              <item name="system" type="cbb8eebc:String" user="system" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Administrator" type="cbb8eebc:String" user="Administrator" />
+              <item name=".PyCharm2017.3" type="cbb8eebc:String" user=".PyCharm2017.3" />
+              <item name="system" type="cbb8eebc:String" user="system" />
+              <item name="python_stubs" type="cbb8eebc:String" user="python_stubs" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="$PROJECT_DIR$/../../../.." type="cbb8eebc:String" user="$PROJECT_DIR$/../../../.." />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Administrator" type="cbb8eebc:String" user="Administrator" />
+              <item name=".PyCharm2017.3" type="cbb8eebc:String" user=".PyCharm2017.3" />
+              <item name="system" type="cbb8eebc:String" user="system" />
+              <item name="python_stubs" type="cbb8eebc:String" user="python_stubs" />
+              <item name="-1352525276" type="cbb8eebc:String" user="-1352525276" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/NSPEM-poseE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\VIBE-master_PaMIR\lib\data" />
+      <recent name="G:\document\Time-space-map-and-point-cloud-map\3D-action-estimate\VIBE-master" />
+      <recent name="G:\document\Time-space-map-and-point-cloud-map\3D-action-estimate\VIBE-master\lib" />
+      <recent name="G:\document\Time-space-map-and-point-cloud-map\3D-action-estimate\VIBE-master\lib\data_utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\document\Time-space-map-and-point-cloud-map\3D-action-estimate\VIBE-master\lib\core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.eval">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NSPEM-poseE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="H:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VIBE-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/core/evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="experience_plotresult补充" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VIBE-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../备份wenjian/博士第三篇文章" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../备份wenjian/博士第三篇文章/experience_plotresult补充.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mpii3d_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VIBE-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/data_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VIBE-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.experience_plotresult补充" />
+      <item itemvalue="Python.mpii3d_utils" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.evaluate" />
+      <item itemvalue="Python.eval" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.eval" />
+        <item itemvalue="Python.experience_plotresult补充" />
+        <item itemvalue="Python.mpii3d_utils" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.evaluate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1b9c956-b568-4039-9001-8a949332a288" name="Default" comment="" />
+      <created>1622294902086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622294902086</updated>
+      <workItem from="1653748364349" duration="3433000" />
+      <workItem from="1653780569450" duration="574000" />
+      <workItem from="1653782368189" duration="20599000" />
+      <workItem from="1653888646036" duration="21224000" />
+      <workItem from="1653962884042" duration="5639000" />
+      <workItem from="1654064778954" duration="9627000" />
+      <workItem from="1654150132428" duration="10197000" />
+      <workItem from="1654218024426" duration="21539000" />
+      <workItem from="1654333066657" duration="10169000" />
+      <workItem from="1654389534409" duration="19398000" />
+      <workItem from="1654499419220" duration="13320000" />
+      <workItem from="1654525590324" duration="6039000" />
+      <workItem from="1654531753376" duration="5456000" />
+      <workItem from="1654572718275" duration="2887000" />
+      <workItem from="1654577788330" duration="5349000" />
+      <workItem from="1654587461405" duration="4152000" />
+      <workItem from="1654596600348" duration="996000" />
+      <workItem from="1654602118752" duration="1280000" />
+      <workItem from="1654606682259" duration="6096000" />
+      <workItem from="1654615348802" duration="2947000" />
+      <workItem from="1654655736072" duration="1802000" />
+      <workItem from="1654662322608" duration="6180000" />
+      <workItem from="1654684751950" duration="7742000" />
+      <workItem from="1654740346458" duration="2274000" />
+      <workItem from="1654746657966" duration="65484000" />
+      <workItem from="1655086889284" duration="3266000" />
+      <workItem from="1655098710315" duration="5547000" />
+      <workItem from="1655110685007" duration="117000" />
+      <workItem from="1655111317317" duration="6219000" />
+      <workItem from="1655128520308" duration="8186000" />
+      <workItem from="1655203745234" duration="6201000" />
+      <workItem from="1655259468663" duration="2746000" />
+      <workItem from="1655266162439" duration="11319000" />
+      <workItem from="1655284183863" duration="8000" />
+      <workItem from="1655284362639" duration="1529000" />
+      <workItem from="1655290089660" duration="604000" />
+      <workItem from="1655293066903" duration="4745000" />
+      <workItem from="1655348178460" duration="428000" />
+      <workItem from="1655390362794" duration="5142000" />
+      <workItem from="1655449373696" duration="5223000" />
+      <workItem from="1655476091286" duration="7808000" />
+      <workItem from="1655515603281" duration="7600000" />
+      <workItem from="1655555756485" duration="8052000" />
+      <workItem from="1655715290447" duration="21873000" />
+      <workItem from="1655865126036" duration="22575000" />
+      <workItem from="1656225617681" duration="1718000" />
+      <workItem from="1656230592028" duration="6755000" />
+      <workItem from="1656253487831" duration="17875000" />
+      <workItem from="1656327012895" duration="106000" />
+      <workItem from="1656327225867" duration="33809000" />
+      <workItem from="1656484026017" duration="143426000" />
+      <workItem from="1657431156301" duration="40338000" />
+      <workItem from="1657701566738" duration="222151000" />
+      <workItem from="1659430687946" duration="1676000" />
+      <workItem from="1659711613834" duration="2326000" />
+      <workItem from="1659842801612" duration="5803000" />
+      <workItem from="1659974590269" duration="1517000" />
+      <workItem from="1660041724154" duration="64582000" />
+      <workItem from="1660332142592" duration="25357000" />
+      <workItem from="1661222883687" duration="19591000" />
+      <workItem from="1661516870802" duration="4889000" />
+      <workItem from="1661566889909" duration="14768000" />
+      <workItem from="1661760374570" duration="39737000" />
+      <workItem from="1662040777278" duration="7404000" />
+      <workItem from="1662772784484" duration="3966000" />
+      <workItem from="1662810541401" duration="620000" />
+      <workItem from="1662881802451" duration="3175000" />
+      <workItem from="1662899700559" duration="1559000" />
+      <workItem from="1663029678646" duration="6946000" />
+      <workItem from="1663037442312" duration="2117000" />
+      <workItem from="1663039816846" duration="16667000" />
+      <workItem from="1663076447683" duration="36000" />
+      <workItem from="1663131221837" duration="49000" />
+      <workItem from="1663401515601" duration="4849000" />
+      <workItem from="1663481111574" duration="25000" />
+      <workItem from="1663481447151" duration="1180000" />
+      <workItem from="1663483571810" duration="86000" />
+      <workItem from="1663484928342" duration="261000" />
+      <workItem from="1663495744089" duration="245000" />
+      <workItem from="1663581395821" duration="743000" />
+      <workItem from="1663651930924" duration="28004000" />
+      <workItem from="1663855086516" duration="77000" />
+      <workItem from="1664001901959" duration="139000" />
+      <workItem from="1664004635052" duration="35000" />
+      <workItem from="1664005385194" duration="59195000" />
+      <workItem from="1664869615447" duration="1496000" />
+      <workItem from="1665715374844" duration="1040000" />
+      <workItem from="1665815378632" duration="1987000" />
+      <workItem from="1666838550167" duration="62000" />
+      <workItem from="1666838809877" duration="140000" />
+      <workItem from="1667022688557" duration="6305000" />
+      <workItem from="1667093181843" duration="10012000" />
+      <workItem from="1667276184305" duration="7846000" />
+      <workItem from="1667304251129" duration="98000" />
+      <workItem from="1667304849571" duration="560000" />
+      <workItem from="1678014711187" duration="621000" />
+      <workItem from="1678973093884" duration="12588000" />
+      <workItem from="1679492712230" duration="9544000" />
+      <workItem from="1679713041292" duration="2048000" />
+      <workItem from="1679901491102" duration="2804000" />
+      <workItem from="1680508623009" duration="12702000" />
+      <workItem from="1680749480923" duration="2029000" />
+      <workItem from="1680841850630" duration="125000" />
+      <workItem from="1681637652153" duration="317000" />
+      <workItem from="1681637986210" duration="8000" />
+      <workItem from="1681882902516" duration="59000" />
+      <workItem from="1682133074881" duration="5485000" />
+      <workItem from="1682171666524" duration="229000" />
+      <workItem from="1682421686205" duration="82000" />
+      <workItem from="1702389910886" duration="1020000" />
+      <workItem from="1702391191920" duration="19706000" />
+      <workItem from="1702474976602" duration="29503000" />
+      <workItem from="1702719980674" duration="1178000" />
+      <workItem from="1702734920801" duration="22741000" />
+      <workItem from="1702959634560" duration="2000000" />
+      <workItem from="1702981460242" duration="8140000" />
+      <workItem from="1703248869100" duration="1297000" />
+      <workItem from="1703252648254" duration="671000" />
+      <workItem from="1703253380964" duration="649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1030" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3229885" sideWeight="0.5130208" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37916666" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="161" y="58" width="784" height="637" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3229885" sideWeight="0.48697916" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.490625" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31839082" sideWeight="0.43125" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_3d_datasets.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_3d_datasets.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_3d_datasets.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>703</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/kp_utils.py</url>
+          <line>262</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/generate_mode3_csv.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/generate_mode3_csv.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/generate_mode3_csv.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>349</line>
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>360</line>
+          <option name="timeStamp" value="636" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/generate_mode3_csv.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="639" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>484</line>
+          <option name="timeStamp" value="775" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>493</line>
+          <option name="timeStamp" value="776" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>521</line>
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>527</line>
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>510</line>
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/RPSM_utils.py</url>
+          <line>1107</line>
+          <option name="timeStamp" value="841" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/RPSM_utils.py</url>
+          <line>1135</line>
+          <option name="timeStamp" value="922" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="939" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="940" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py</url>
+          <line>306</line>
+          <option name="timeStamp" value="941" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>511</line>
+          <option name="timeStamp" value="950" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>682</line>
+          <option name="timeStamp" value="953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>665</line>
+          <option name="timeStamp" value="955" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>679</line>
+          <option name="timeStamp" value="960" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>667</line>
+          <option name="timeStamp" value="961" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>648</line>
+          <option name="timeStamp" value="962" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>629</line>
+          <option name="timeStamp" value="963" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>540</line>
+          <option name="timeStamp" value="964" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>672</line>
+          <option name="timeStamp" value="965" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>733</line>
+          <option name="timeStamp" value="966" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py</url>
+          <line>732</line>
+          <option name="timeStamp" value="967" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/h36m_utils.py</url>
+          <line>476</line>
+          <option name="timeStamp" value="1022" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/loss.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="1033" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/loss.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="1034" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/RPSM_utils.py</url>
+          <line>459</line>
+          <option name="timeStamp" value="1057" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/RPSM_utils.py</url>
+          <line>562</line>
+          <option name="timeStamp" value="1058" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/RPSM_utils.py</url>
+          <line>354</line>
+          <option name="timeStamp" value="1059" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_HOME_DIR$/helpers/pycharm_matplotlib_backend/backend_interagg.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1078" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="1088" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/trainer.py</url>
+          <line>407</line>
+          <option name="timeStamp" value="1126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/models/motion_discriminator.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="1246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/models/attention.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="1247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="1300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>826</line>
+          <option name="timeStamp" value="1320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>807</line>
+          <option name="timeStamp" value="1323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>816</line>
+          <option name="timeStamp" value="1324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>697</line>
+          <option name="timeStamp" value="1519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>411</line>
+          <option name="timeStamp" value="1523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/trainer.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="1529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/trainer.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="1533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/trainer.py</url>
+          <line>316</line>
+          <option name="timeStamp" value="1534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py</url>
+          <line>514</line>
+          <option name="timeStamp" value="1539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/feature_extractor.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="1540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/feature_extractor.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="1546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/feature_extractor.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="1548" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="1565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/dataset/dataset_3d.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="1566" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="1571" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/data_utils/img_utils.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="1572" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/models/vibe.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1574" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>500</line>
+          <option name="timeStamp" value="1575" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/core/evaluate.py</url>
+          <line>542</line>
+          <option name="timeStamp" value="1576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/dataset/dataset_3d.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="1577" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VIBE_master_PaMIR$train.coverage" NAME="train Coverage Results" MODIFIED="1667293050234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master_PaMIR$eval.coverage" NAME="eval Coverage Results" MODIFIED="1703039920760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1664115767826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/core" />
+    <SUITE FILE_PATH="coverage/NSPEM_poseE$eval.coverage" NAME="eval Coverage Results" MODIFIED="1703253600467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master_PaMIR$experience_plotresult.coverage" NAME="experience_plotresult补充 Coverage Results" MODIFIED="1702887907684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../备份wenjian/博士第三篇文章" />
+    <SUITE FILE_PATH="coverage/VIBE_master$eval.coverage" NAME="eval Coverage Results" MODIFIED="1665715806653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master_PaMIR$mpii3d_utils.coverage" NAME="mpii3d_utils Coverage Results" MODIFIED="1679039984483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/data_utils" />
+    <SUITE FILE_PATH="coverage/VIBE_master$experience_plotresult.coverage" NAME="experience_plotresult补充 Coverage Results" MODIFIED="1661567308271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/VIBE_master$train.coverage" NAME="train Coverage Results" MODIFIED="1653889815228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VIBE_master$mpii3d_utils.coverage" NAME="mpii3d_utils Coverage Results" MODIFIED="1655866188953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/data_utils" />
+    <SUITE FILE_PATH="coverage/VIBE_master$vibe.coverage" NAME="vibe Coverage Results" MODIFIED="1662901422313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/models" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://H:/Anaconda3/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" />
+    <entry file="file://H:/Anaconda3/Lib/site-packages/torch/tensor.py" />
+    <entry file="file://H:/Anaconda3/Lib/site-packages/numpy/core/numeric.py" />
+    <entry file="file://H:/Anaconda3/Lib/site-packages/numpy/lib/_datasource.py" />
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/kp_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="389" column="26" lean-forward="false" selection-start-line="389" selection-start-column="26" selection-end-line="389" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/torch/utils/data/dataloader.py" />
+    <entry file="file://$PROJECT_DIR$/lib/dataset/body.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/torchvision/models/resnet.py" />
+    <entry file="file://H:/Anaconda3/Lib/site-packages/torch/__init__.pyi" />
+    <entry file="file://H:/Anaconda3/Lib/site-packages/h5py/_hl/files.py" />
+    <entry file="file://$PROJECT_DIR$/lib/core/config_cvf3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1106">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/threedpw_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="138" column="41" lean-forward="false" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="142" column="42" lean-forward="false" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="353" column="52" lean-forward="false" selection-start-line="353" selection-start-column="52" selection-end-line="353" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/motion_discriminator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ooo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/MPI_S12345_and_678_correct_level1_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="93" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/fbx_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2736">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/experience_plotresult补充.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/amass_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/con_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/generate_mode3_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/BPNN_classification/BPNN_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="202" column="44" lean-forward="false" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="44" />
+          <folding>
+            <element signature="e#7046#7058#0" expanded="false" />
+            <element signature="e#15910#15921#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/vibe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dataset/insta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/h5py/__init__.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm_matplotlib_backend/backend_interagg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/matplotlib/_api/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dataset/loaders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dataset/dataset_2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254">
+          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dataset/mpii3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/h36m_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="432" column="24" lean-forward="true" selection-start-line="432" selection-start-column="24" selection-end-line="432" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/spin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="80" column="29" lean-forward="false" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/smpl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/smplx/body_models.py" />
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/img_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17442">
+          <caret line="691" column="69" lean-forward="false" selection-start-line="691" selection-start-column="69" selection-end-line="691" selection-end-column="69" />
+          <folding>
+            <element signature="e#49272#59546#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="439" column="0" lean-forward="false" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Anaconda3/Lib/site-packages/torch/autograd/_functions/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/RPSM_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="1363" column="0" lean-forward="false" selection-start-line="1363" selection-start-column="0" selection-end-line="1363" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dataset/dataset_3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2133">
+          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/mpii3d_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14742">
+          <caret line="546" column="21" lean-forward="false" selection-start-line="546" selection-start-column="20" selection-end-line="546" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_utils/feature_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="91" column="34" lean-forward="false" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+          <folding>
+            <element signature="e#683#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
